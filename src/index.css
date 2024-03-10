@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply px-5 py-3 font-semibold tracking-wider text-white transition duration-300 rounded-lg outline-none;
+}
+.btn-primary{
+  @apply  bg-sky-500 focus:ring focus:ring-sky-600 hover:bg-sky-600;
+}
+.btn-pink{
+  @apply  bg-pink-500 focus:ring focus:ring-pink-600 hover:bg-pink-600;
+}
+.input{
+  @apply px-3 py-2 border-slate-400  bg-transparent rounded-lg border-[1px] w-full focus:outline-none focus:ring-[2px] focus:ring-ungu focus:border-0 focus:placeholder-[rgb(75,96,135)] text-slate-700; 
+}
+.yaya{
+  
+}
